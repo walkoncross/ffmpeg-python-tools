@@ -1,10 +1,20 @@
 # ffmpeg python tools
+@author: zhaoyafei0210@gmail.com
+
+[github repo](https://github.com/walkoncross/ffmpeg-python-tools)
+
+Table of Contents:
+- [ffmpeg python tools](#ffmpeg-python-tools)
+  - [ffmpeg](#ffmpeg)
+  - [ffmpeg shell scripts](#ffmpeg-shell-scripts)
+  - [ffmpeg-python](#ffmpeg-python)
+  - [ffmpeg python scripts](#ffmpeg-python-scripts)
 
 ## ffmpeg
 [ffmpeg online documentation](http://ffmpeg.org/documentation.html)
 
 ## ffmpeg shell scripts
-[ffmpeg shell scripts](./ffmpeg shell scripts)
+[ffmpeg shell scripts](./ffmpeg_shell_scripts/README.md)
 
 ## ffmpeg-python
 - Github:	
