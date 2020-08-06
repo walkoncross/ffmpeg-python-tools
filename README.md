@@ -1,9 +1,10 @@
 # ffmpeg python tools
 
-@author: zhaoyafei0210@gmail.com
-
 ## ffmpeg
 [ffmpeg online documentation](http://ffmpeg.org/documentation.html)
+
+## ffmpeg shell scripts
+[ffmpeg shell scripts](./ffmpeg shell scripts)
 
 ## ffmpeg-python
 - Github:	
@@ -11,7 +12,7 @@
 - API Reference:	
   https://kkroening.github.io/ffmpeg-python/
 
-## scripts
+## ffmpeg python scripts
 - extract audio from video and save into file: [ffmpeg_extract_audio](./ffmpeg_extract_audio.py)
   - for help info: ```python ffmpeg_extract_audio.py -h```
 - extract audio from video and save into file, and get trim info: [ffmpeg_extract_audio_and_get_trim_info](./ffmpeg_extract_audio_and_get_trim_info.py)
