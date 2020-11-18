@@ -14,7 +14,7 @@ function show_usage {
     echo "		<output_video>: optional, path name ended with .mp4 for the output video"
 }
 
-if [[ $# -lt 2 || $# -gt 3 ]]; then
+if [[ $# -lt 1 || $# -gt 2 ]]; then
 	show_usage
     exit
 fi
@@ -22,8 +22,8 @@ fi
 input=$1
 offset=$2 # time offset in seconds, e.g. 0.1 makes audio delay for 100ms, -0.1 makes audio 
 
-if [[ $# -gt 2 ]]; then
-output=$3
+if [[ $# -gt 1 ]]; then
+output=$2
 else
 basename=${input##*/}
 output=${basename%%.*}.x264-anim.mp4
