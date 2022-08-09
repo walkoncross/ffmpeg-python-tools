@@ -1,0 +1,6 @@
+.DS_Store
+data/*
+stacked_videos/
+*.mp4
+*.pyc
+**/__pycache__/
